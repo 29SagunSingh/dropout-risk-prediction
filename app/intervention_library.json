@@ -1,0 +1,224 @@
+{
+  "rules": [
+    {
+      "id": "R01",
+      "trigger_feature": "Curricular units 2nd sem (approved)",
+      "condition": "low",
+      "threshold": 3,
+      "risk_category": "Academic",
+      "intervention_title": "Academic support programme",
+      "intervention_detail": "Enrol the student in a structured academic support or tutoring programme. Assign a faculty mentor to monitor progress weekly. Consider a reduced course load for the next semester.",
+      "responsible_party": "Academic advisor",
+      "urgency": "High"
+    },
+    {
+      "id": "R02",
+      "trigger_feature": "Curricular units 1st sem (approved)",
+      "condition": "low",
+      "threshold": 3,
+      "risk_category": "Academic",
+      "intervention_title": "Early academic intervention",
+      "intervention_detail": "Flag student for early academic review. Connect with subject teachers to identify specific areas of difficulty. Arrange supplementary classes or peer tutoring.",
+      "responsible_party": "Academic advisor",
+      "urgency": "High"
+    },
+    {
+      "id": "R03",
+      "trigger_feature": "Approval_Rate_Sem2",
+      "condition": "low",
+      "threshold": 0.5,
+      "risk_category": "Academic",
+      "intervention_title": "Curriculum review meeting",
+      "intervention_detail": "Schedule a meeting with the student to review their subject choices and workload. Assess whether the course difficulty matches the student's preparation level. Explore bridging courses if needed.",
+      "responsible_party": "Academic advisor",
+      "urgency": "High"
+    },
+    {
+      "id": "R04",
+      "trigger_feature": "Approval_Rate_Sem1",
+      "condition": "low",
+      "threshold": 0.5,
+      "risk_category": "Academic",
+      "intervention_title": "First semester academic review",
+      "intervention_detail": "Conduct an academic review meeting after the first semester. Identify subject-specific struggles and assign peer mentors. Set academic improvement goals for semester 2.",
+      "responsible_party": "Academic advisor",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R05",
+      "trigger_feature": "Curricular units 2nd sem (grade)",
+      "condition": "low",
+      "threshold": 10,
+      "risk_category": "Academic",
+      "intervention_title": "Grade improvement plan",
+      "intervention_detail": "Work with the student to create a personal study plan. Provide access to past exam papers, revision materials, and study skills workshops. Monitor grades monthly.",
+      "responsible_party": "Subject teacher",
+      "urgency": "High"
+    },
+    {
+      "id": "R06",
+      "trigger_feature": "Curricular units 1st sem (grade)",
+      "condition": "low",
+      "threshold": 10,
+      "risk_category": "Academic",
+      "intervention_title": "Foundational skills assessment",
+      "intervention_detail": "Assess the student for foundational knowledge gaps. Provide access to remedial learning resources. Consider recommending a course audit before re-enrollment.",
+      "responsible_party": "Subject teacher",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R07",
+      "trigger_feature": "Grade_Drop",
+      "condition": "high",
+      "threshold": 3,
+      "risk_category": "Academic",
+      "intervention_title": "Performance decline alert",
+      "intervention_detail": "The student's grades have dropped between semesters. Conduct a wellbeing and academic check-in. Identify any personal, financial, or health-related factors contributing to the decline.",
+      "responsible_party": "Counsellor",
+      "urgency": "High"
+    },
+    {
+      "id": "R08",
+      "trigger_feature": "Total_Units_Failed",
+      "condition": "high",
+      "threshold": 4,
+      "risk_category": "Academic",
+      "intervention_title": "Academic probation support",
+      "intervention_detail": "Place the student on an academic improvement plan. Schedule bi-weekly check-ins with their advisor. Provide access to learning support services and consider a reduced unit load.",
+      "responsible_party": "Academic advisor",
+      "urgency": "High"
+    },
+    {
+      "id": "R09",
+      "trigger_feature": "Tuition fees up to date",
+      "condition": "equals",
+      "threshold": 0,
+      "risk_category": "Financial",
+      "intervention_title": "Financial counselling & fee assistance",
+      "intervention_detail": "Connect the student with the financial aid office immediately. Explore available scholarships, bursaries, emergency funds, or payment plan options. Ensure overdue fees do not result in sudden deregistration.",
+      "responsible_party": "Financial aid office",
+      "urgency": "High"
+    },
+    {
+      "id": "R10",
+      "trigger_feature": "Debtor",
+      "condition": "equals",
+      "threshold": 1,
+      "risk_category": "Financial",
+      "intervention_title": "Debt management referral",
+      "intervention_detail": "Refer the student to a financial counsellor to manage existing debt. Investigate eligibility for institutional debt relief programmes or government financial assistance.",
+      "responsible_party": "Financial aid office",
+      "urgency": "High"
+    },
+    {
+      "id": "R11",
+      "trigger_feature": "Financial_Risk_Score",
+      "condition": "high",
+      "threshold": 1,
+      "risk_category": "Financial",
+      "intervention_title": "Comprehensive financial support plan",
+      "intervention_detail": "The student faces multiple financial stressors. Coordinate between financial aid, academic advising, and student services to create a holistic support plan. Explore part-time work-study opportunities on campus.",
+      "responsible_party": "Student services",
+      "urgency": "High"
+    },
+    {
+      "id": "R12",
+      "trigger_feature": "Scholarship holder",
+      "condition": "equals",
+      "threshold": 0,
+      "risk_category": "Financial",
+      "intervention_title": "Scholarship awareness campaign",
+      "intervention_detail": "Inform the student about available scholarship and bursary opportunities. Assist with scholarship applications and connect them with the financial aid advisor.",
+      "responsible_party": "Financial aid office",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R13",
+      "trigger_feature": "Displaced",
+      "condition": "equals",
+      "threshold": 1,
+      "risk_category": "Geographic",
+      "intervention_title": "Relocation & housing support",
+      "intervention_detail": "Connect the student with on-campus housing services or affordable accommodation near the institution. Provide information about transport subsidies and commuting options.",
+      "responsible_party": "Student services",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R14",
+      "trigger_feature": "Enrollment_Drop",
+      "condition": "high",
+      "threshold": 2,
+      "risk_category": "Engagement",
+      "intervention_title": "Re-engagement outreach",
+      "intervention_detail": "The student has significantly reduced their enrolled units. Reach out proactively to understand the reason. Offer flexible study options, online learning alternatives, or a leave of absence if needed.",
+      "responsible_party": "Academic advisor",
+      "urgency": "High"
+    },
+    {
+      "id": "R15",
+      "trigger_feature": "Total_Evaluations",
+      "condition": "low",
+      "threshold": 5,
+      "risk_category": "Engagement",
+      "intervention_title": "Attendance & participation follow-up",
+      "intervention_detail": "Low evaluation count indicates disengagement from coursework. Contact the student to understand barriers to participation. Connect with student wellbeing services if personal issues are identified.",
+      "responsible_party": "Subject teacher",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R16",
+      "trigger_feature": "Approval_Rate_Trend",
+      "condition": "low",
+      "threshold": -0.2,
+      "risk_category": "Engagement",
+      "intervention_title": "Declining performance intervention",
+      "intervention_detail": "The student's approval rate is worsening across semesters. Arrange a meeting to discuss barriers. Explore counselling, study skills training, or course load adjustment.",
+      "responsible_party": "Counsellor",
+      "urgency": "High"
+    },
+    {
+      "id": "R17",
+      "trigger_feature": "Age at enrollment",
+      "condition": "high",
+      "threshold": 25,
+      "risk_category": "Personal",
+      "intervention_title": "Mature student support",
+      "intervention_detail": "Mature students often face competing responsibilities such as employment or family obligations. Connect with the mature student support programme. Explore flexible scheduling, online learning options, or part-time study.",
+      "responsible_party": "Student services",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R18",
+      "trigger_feature": "International",
+      "condition": "equals",
+      "threshold": 1,
+      "risk_category": "Personal",
+      "intervention_title": "International student integration support",
+      "intervention_detail": "Connect the student with the international student office. Provide language support, cultural orientation resources, and peer buddy programmes. Ensure visa and fee obligations are clearly communicated.",
+      "responsible_party": "International student office",
+      "urgency": "Medium"
+    },
+    {
+      "id": "R19",
+      "trigger_feature": "Educational special needs",
+      "condition": "equals",
+      "threshold": 1,
+      "risk_category": "Personal",
+      "intervention_title": "Disability & learning support referral",
+      "intervention_detail": "Ensure the student has access to all entitled disability support services. Review whether current accommodations (extended time, assistive technology, alternative formats) are adequate and being utilised.",
+      "responsible_party": "Disability support office",
+      "urgency": "High"
+    },
+    {
+      "id": "R20",
+      "trigger_feature": "Unemployment rate",
+      "condition": "high",
+      "threshold": 13,
+      "risk_category": "Socioeconomic",
+      "intervention_title": "Career & employment guidance",
+      "intervention_detail": "High regional unemployment may reduce the perceived value of continuing education. Connect the student with career services to explore graduate employment prospects and the long-term benefits of completing their qualification.",
+      "responsible_party": "Career services",
+      "urgency": "Low"
+    }
+  ]
+}
